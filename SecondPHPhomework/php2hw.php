@@ -17,11 +17,12 @@ div{
 
 	<?php
 		$color_number = sprintf('#%06X', mt_rand(0, 0xFFFFFF));
-		echo $color_number;
+		//echo $color_number;
 	?>
 
 <div style="background-color:<?php echo $color_number; ?>;">
 	<p> This background colour will be different each time. </p>
+	<p> For a different colour, please refresh the page. </p>
 </div>
 
 </body>
