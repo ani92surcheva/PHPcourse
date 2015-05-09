@@ -1,0 +1,22 @@
+body{background-color:#ADD8E6;}
+h1{text-align:center;
+   color:#008080;
+   }
+#div1{border: 2px solid #000000;
+      text-align: center;
+	 }
+#div2{border: 1px solid #B22222;}
+
+#p1{font-size: 14px; 
+    font-family:"Tahoma";
+	font-style:italic;
+	}
+#p2{font-size:14px;
+    font-family:"Fantasy";
+	font-style:oblique;}
+
+#img4{opacity: 0.4;}
+
+
+
+
