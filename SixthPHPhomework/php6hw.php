@@ -11,7 +11,7 @@
 
 
     $array = array(
-		'Companies'=>'websites',
+		
         'VMWare' => 'http://www.vmware.com/',
         'HP'=>'http://www8.hp.com/bg/bg/home.html',
 		'Ipsos'=>'http://www.ipsos.com/',
@@ -19,7 +19,7 @@
 		'OrderDynamics'=>'http://www.orderdynamics.com/'
     );
 	
-
+echo "</br> Companies with websites, if you want to go to the website, click on the companie's name :</br>";
 	 foreach ($array as $key => $value) {
 		//echo "<tr>";		
        // echo "<td><strong>" . $key . "</strong></td>";
