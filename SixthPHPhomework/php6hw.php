@@ -21,16 +21,11 @@
 	
 echo "</br> Companies with websites, if you want to go to the website, click on the companie's name :</br>";
 	 foreach ($array as $key => $value) {
-		//echo "<tr>";		
-       // echo "<td><strong>" . $key . "</strong></td>";
-		//echo"</br>";
-       // echo "<td><a href=" . $value . "/a></td>";		
-		//echo "</tr>";
+		
+		echo "   <a href=$value>$key</a>";
+		echo"</br>";
 
-echo "$key   <a href=$value/a>";
-echo"</br>";
-
-		}
+		} 
 
     
 ?>
